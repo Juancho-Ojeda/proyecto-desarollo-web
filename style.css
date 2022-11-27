@@ -1,0 +1,325 @@
+body{
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+@font-face {
+    font-family: "pepo";
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+p{
+    font-family: "pepo";
+    font-size: 20px;
+}
+/* ===AJUSTES FOOD ==*/
+/* ===AJUSTES FOOD ==*/
+.foot p{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.foot img{
+    width: 100px;
+    height: 90px;
+}
+footer{background-color: rgb(110, 110, 110);}
+
+
+/* ======GALERIA GRID====== */
+/* ======GALERIA GRID====== */
+/* ======GALERIA GRID====== */
+
+.galeria-container{
+    margin-top: 5px;
+    background-color: #fff;
+    width: 95%;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+        "article main aside article2"
+        "article main aside article2"
+    ;
+    grid-template-columns:  30% 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.galeria__item-alt{
+    width: 100%;
+    height: 100%;
+}
+.item-1{
+    grid-area: article;
+}
+.item-2{
+    grid-area:aside;
+}
+.item-3{
+    grid-area:main;
+}
+.item-4{
+    grid-area: article2;
+}
+.item-1 img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.item-2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.item-3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.item-4 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*=== AJUSTES HEADER==*/
+/*=== AJUSTES HEADER==*/
+
+header{background-color: rgb(110, 110, 110);}
+
+.contenedor{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.navbar__menuItem{
+    background-color: rgb(31, 27, 27);
+    color: white;
+    font-family: "pepo";
+    font-size: 18x;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+}
+.navbar__list{
+    display: flex;
+    gap: 30px;
+}
+.header__logo{
+ max-height: 95px;
+}
+
+/* ==== tarjetas==== */
+/* ==== tarjetas==== */
+/* ==== tarjetas==== */
+h3{
+    padding: 10px;
+}
+h3{
+    font-size: 30px;
+    font-family: "pepo";
+}
+h2{
+    padding: 10px;
+}
+h2{
+    font-size: 30px;
+    font-family: "pepo";
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1100px;
+
+}
+.card{
+    display: flex ;
+    justify-content: center;
+    width: 100%;
+    margin: 25px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2); 
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);   
+}
+
+/* ====TARJETA HOMBRE=== */
+/* ====TARJETA HOMBRE=== */
+/* ====TARJETA HOMBRE=== */
+
+.card__gorras img{
+    width: 250px;
+    height: 200px;
+}
+
+
+/* =====TARJETA CALSADO==== */
+/* =====TARJETA CALSADO==== */
+/* =====TARJETA CALSADO==== */
+
+.botas img{
+    width: 310px;
+    height: 300px;
+}
+.zapas img{
+    width: 310px;
+    height: 300px;
+}
+/*  ====TARJETA PAGINA PRINCIPAL==== */
+/*  ====TARJETA PAGINA PRINCIPAL==== */
+/*  ====TARJETA PAGINA PRINCIPAL==== */
+.RECOMENDADOS img{
+    width: 310px;
+    height: 300px;
+}
+.LANZAMIENTOS img{
+    width: 250px;
+    height: 300px;
+}
+
+
+/* ===TARJETAS PAGINA MUJER=== */
+/* ===TARJETAS PAGINA MUJER=== */
+/* ===TARJETAS PAGINA MUJER=== */
+ 
+.ropa img{
+ width: 320px;
+ height: 310px;
+}
+.tops img{
+    width: 310px;
+    height: 300px;
+}
+/* ===TARJETAS PAGINA NIÑO=== */
+/* ===TARJETAS PAGINA NIÑO=== */
+/* ===TARJETAS PAGINA NIÑO=== */
+.niño img{
+    width: 310px;
+    height: 300px;
+}
+.niño img{
+    width: 310px;
+    height: 300px;
+}
+.pelotas img{
+    width: 310px;
+    height: 300px;
+}
+
+
+/* ===TARJETAS PAGINA RUNNING=== */
+/* ===TARJETAS PAGINA RUNNING=== */
+/* ===TARJETAS PAGINA RUNNING=== */
+
+.run img{
+    width: 310px;
+    height: 300px;
+}
+/* ===MOBILE FIRST=== */
+/* ===MOBILE FIRST=== */
+/* ===MOBILE FIRST=== */
+
+
+@media (max-width: 768px){
+    .container{
+        display: grid;
+        grid-template-columns:1fr;
+        width: 80%;
+    }
+
+    .galeria-container{
+        grid-template-columns: auto;
+    }
+    li{
+        font-size: 20px;
+    }
+    h2{
+        align-items: center;
+        padding: 50px;
+    }
+    h3{
+        align-items: center;
+        padding: 50px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar__menuItem{
+        padding: 10px 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===FORMULARIO=== */
+/* ===FORMULARIO=== */
+/* ===FORMULARIO=== */      
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.form{
+    background-color: rgba(224, 224, 224, 0.3);
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 20px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+}
+.form__input{
+    width: 100%;
+    padding: 4px 0;
+    border-style:solid;
+    border-color:rgb(228, 228, 228);
+    outline: none;
+    background-color:#fff;
+    font-size: 14px;
+    font-family: "pepo";
+
+}
+.form__group{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.btn-enviar{
+    font-size: 14px;
+    font-family: "pepo";
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px 0;
+    width: 100%;
+    padding: 15px ;
+}
+.form p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(173, 172, 172);
+} 
