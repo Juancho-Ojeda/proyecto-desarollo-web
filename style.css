@@ -12,18 +12,6 @@ p{
     font-family: "pepo";
     font-size: 20px;
 }
-/* ===AJUSTES FOOD ==*/
-/* ===AJUSTES FOOD ==*/
-/* .foot p{
-    font-family: sans-serif;
-    font-size: 25px;
-}
-.foot img{
-    width: 100px;
-    height: 90px;
-}
-footer{background-color: rgb(110, 110, 110);} */
-
 
 /* ======GALERIA GRID====== */
 /* ======GALERIA GRID====== */
@@ -321,3 +309,10 @@ h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(173, 172, 172);
 } 
+/* ===Pagina quienes somos=== */
+/* ===Pagina quienes somos=== */
+/* ===Pagina quienes somos=== */
+
+.container-sm{
+    padding: 10px;
+}
