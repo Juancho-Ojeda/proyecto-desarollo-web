@@ -6,7 +6,7 @@ ul {
 }
 @font-face {
     font-family: "pepo";
-    src: url(./fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 p{
     font-family: "pepo";
@@ -71,7 +71,22 @@ p{
 /*=== AJUSTES HEADER==*/
 /*=== AJUSTES HEADER==*/
 
-header{background-color: rgb(110, 110, 110);}
+
+header{background-color: rgb(33, 33, 33);}
+
+.nav-item{
+    max-width: 100%;
+    padding: 5px;
+}
+.nav-link{
+    font-family: "pepo";
+    font-weight: 800px;
+    color: #fff;
+    gap: 1.8rem;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
 
 .contenedor{
     max-width: 1100px;
@@ -81,22 +96,13 @@ header{background-color: rgb(110, 110, 110);}
     align-items: center;
     padding: 10px 0;
 }
-.navbar__menuItem{
-    background-color: rgb(31, 27, 27);
-    color: white;
-    font-family: "pepo";
-    font-size: 18x;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 10px 10px;
-    display: inline-block;
-}
-.navbar__list{
-    display: flex;
-    gap: 30px;
-}
 .header__logo{
- max-height: 95px;
+    width: 90px;
+    height: 80px;
+}
+.navbar__header{
+    background-color: rgb(67, 67, 67);
+
 }
 
 /* ==== tarjetas==== */
@@ -216,6 +222,12 @@ h2{
 /* ===MOBILE FIRST=== */
 /* ===MOBILE FIRST=== */
 
+@media (max-width:760px){
+    .navbar__menuItem{
+        padding: 3px;
+        justify-content: center;
+    }
+}
 
 @media (max-width: 768px){
     .container{

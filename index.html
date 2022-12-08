@@ -6,28 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tienda Jo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     
 </head>
 <body>
 
-    <header class="header">
-        <div class="contenedor">
-            <img src="./img/logo.webp" class="header__logo">
-            <nav class="header__navbar">
-                <ul class="navbar__list">
-                    <li class="nabvar__listItem"><a href="./pages/calzado.html" class="navbar__menuItem">calzado</a></li>
-                    <li class="nabvar__listItem"><a href="./pages/hombre.html" class="navbar__menuItem">hombre</a></li>
-                    <li class="nabvar__listItem"><a href="./pages/mujer.html" class="navbar__menuItem">mujer</a></li>
-                    <li class="nabvar__listItem"><a href="./pages/niño.html" class="navbar__menuItem">niño</a></li>
-                    <li class="nabvar__listItem"><a href="./pages/marcas.html" class="navbar__menuItem">marcas</a></li>
-                    <li class="nabvar__listItem"><a href="./pages/Contacto.html" class="navbar__menuItem">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <br>
 
+    <header>
+        <div class= "contenedor">
+            <img src="./img/logo.webp" class="header__logo">
+            <a href="index.html"></a>
+        </div>
+        <div class="navbar__header">
+        <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/calzado.html">CALSADO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/hombre.html">HOMBRE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/mujer.html">MUJER</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="./pages/niño.html">NIÑO</a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/Contacto.html">CONTACTO</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">MARCAS</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Nike</a></li>
+              <li><a class="dropdown-item" href="#">Adidas</a></li>
+              <li><a class="dropdown-item" href="#">Puma</a></li>
+              <li><a class="dropdown-item" href="#">New Balance</a></li>
+              <li><a class="dropdown-item" href="#">Fila</a></li>
+              <li><a class="dropdown-item" href="#">Topper</a></li>
+            </ul>
+        </li>
+      </ul> 
+        </div>
+    </header>        
+    
     <main>
         <section>
             <div class="galeria-container">

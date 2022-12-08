@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALZADO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <style type="text/css">
         h2{
             font-family: sans-serif;
@@ -24,18 +24,41 @@
 <body>
     <header class="header">
         <div class="contenedor">
-            <img src="../img/logo.webp" class="header__logo">
-            <nav class="header__navbar">
-                <ul class="navbar__list">
-                    <li class="navbar__listItem"> <a href="../index.html" class="navbar__menuItem">home</a></li>
-                    <li class="nabvar__listItem"><a href="hombre.html" class="navbar__menuItem">hombre</a></li>
-                    <li class="nabvar__listItem"><a href="mujer.html" class="navbar__menuItem">mujer</a></li>
-                    <li class="nabvar__listItem"><a href="niño.html" class="navbar__menuItem">niño</a></li>
-                    <li class="nabvar__listItem"><a href="marcas.html" class="navbar__menuItem">marcas</a></li>
-                    <li class="nabvar__listItem"><a href="Contacto.html" class="navbar__menuItem">Contacto</a></li>
-                </ul>
-            </nav>
+            <a href="../index.html"><img src="../img/logo.webp" class="header__logo"></a>
         </div>
+        <div class="navbar__header">
+            <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="calzado.html">MUJER</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hombre.html">HOMBRE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mujer.html">MUJER</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="niño.html">NIÑO</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contacto.html">CONTACTO</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">MARCAS</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nike</a></li>
+                  <li><a class="dropdown-item" href="#">Adidas</a></li>
+                  <li><a class="dropdown-item" href="#">Puma</a></li>
+                  <li><a class="dropdown-item" href="#">New Balance</a></li>
+                  <li><a class="dropdown-item" href="#">Fila</a></li>
+                  <li><a class="dropdown-item" href="#">Topper</a></li>
+                </ul>
+            </li>
+          </ul> 
+            </div>
     </header>
     <main>
         <section>
