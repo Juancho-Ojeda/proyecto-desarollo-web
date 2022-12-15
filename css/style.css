@@ -4,6 +4,9 @@ body{
 ul {
     list-style: none;
 }
+li{
+    font-weight: 400;
+}
 @font-face {
     font-family: "pepo";
     src: url(../fonts/Roboto-Regular.ttf);
@@ -12,6 +15,34 @@ p{
     font-family: "pepo";
     font-size: 20px;
 }
+
+/* ======COMPRA POR MARCAS======
+/* ======COMPRA POR MARCAS====== */
+/* ======COMPRA POR MARCAS====== */
+
+/* .marcas{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marcas h4{
+    margin: 0;
+    color: #232323;
+    letter-spacing: .3px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.comprapormarcas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+}  */
+
+
 
 /* ======GALERIA GRID====== */
 /* ======GALERIA GRID====== */
@@ -188,10 +219,7 @@ h2{
 /* ===TARJETAS PAGINA MUJER=== */
 /* ===TARJETAS PAGINA MUJER=== */
  
-.ropa img{
- width: 320px;
- height: 310px;
-}
+
 .tops img{
     width: 310px;
     height: 300px;
@@ -200,16 +228,12 @@ h2{
 /* ===TARJETAS PAGINA NIÑO=== */
 /* ===TARJETAS PAGINA NIÑO=== */
 .niño img{
-    width: 310px;
-    height: 300px;
-}
-.niño img{
-    width: 310px;
-    height: 300px;
+    width: 270px;
+    height: 280px;
 }
 .pelotas img{
-    width: 310px;
-    height: 300px;
+    width: 260px;
+    height: 250px;
 }
 
 

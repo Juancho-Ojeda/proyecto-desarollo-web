@@ -12,3 +12,35 @@ $color-letra:red;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
 }
+
+.redes{
+    li{
+        color: white;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+}
+
+$redes:(facebook:#3a5795,twitter:#55acee,youtube:#C25E30);
+
+@each $clave, $valor in $redes{
+    .#{$clave}{
+        background-color: $valor;
+    }
+}
+@mixin size ($ancho , $alto){
+    width: $ancho;
+    height: $alto;
+}
+ .redes{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+    li{
+        @include size(1100px, 100px)
+    }
+ }
+
+
