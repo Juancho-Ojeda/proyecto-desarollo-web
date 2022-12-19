@@ -1,0 +1,83 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1100px;
+
+    .card{
+        display: flex ;
+        justify-content: center;
+        width: 100%;
+        margin: 20px;
+        border-radius: 7px;
+        overflow: hidden;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2); 
+        cursor: default;
+        transition: all 400ms ease;
+
+        &:hover{
+            box-shadow: 5px 5px 20px rgba(0,0,0,0.4);  
+        }
+    }
+    .RECOMENDADOS {
+        img{
+        width: 310px;
+        height: 300px;
+    }
+    }
+    .LANZAMIENTOS{
+        img{
+        width: 250px;
+        height: 300px;
+    }
+    }
+     
+    .MUNDIAL{
+        img{
+        width: 260px;
+        height: 300px;
+    } 
+    } 
+    .botas {
+        img{
+        width: 310px;
+        height: 300px;
+    }
+    }
+    
+    .zapas {
+       img{
+        width: 310px;
+        height: 300px;
+    } 
+    }
+    .tops {
+        img{
+        width: 310px;
+        height: 300px;
+    } 
+    }
+    .card__gorras{
+        img{
+        width: 250px;
+        height: 200px;
+    } 
+    }
+    .niño{
+        img{
+        width: 270px;
+        height: 280px;
+    }
+    }
+        
+    .pelotas {
+        img{
+        width: 260px;
+        height: 250px;
+    } 
+    }
+     
+     
+}

@@ -1,59 +1,73 @@
-// .galeria-container{
-//     margin-top: 5px;
-//     background-color: #fff;
-//     width: 95%;
-//     padding: 20px;
-//     margin-left: 25px;
-//     display: grid;
-//     grid-template-areas: 
-//         "article main aside article2"
-//         "article main aside article2"
-//     ;
-//     grid-template-columns:  30% 1fr 1fr 1fr;
-//     column-gap: 15px;
-//     row-gap: 15px;
+.galeria-container{
+    margin-top: 5px;
+    background-color: #fff;
+    width: 95%;
+    padding: 20px;
+    margin-left: 25px;
+    display: grid;
+    grid-template-areas: 
+        "article main aside article2"
+        "article main aside article2"
+    ;
+    grid-template-columns:  30% 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
 
-//     .galeria__item-alt{
-//     width: 100%;
-//     height: 100%;
+    .galeria__item-alt{
+        width: 100%;
+        height: 100%;
+
+    .item-1{
+    grid-area: article;
+        
+    }
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+
+    .item-2{
+         grid-area:aside;
+         img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .item-3{
+         grid-area:main;
+         img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .item-4{
+         grid-area: article2;
+         img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        } 
+    }
+
+
+    }
+
+}
+    
+
+
+    
 
     
 
 
-//     }
-//     .item-1{
-//     grid-area: article;
-        
-//     }
-//     img{
-//         object-fit: cover;
-//         width: 100%;
-//         height: 100%;
-//       }
-//     .item-2{
-//          grid-area:aside;
-//          img{
-//             object-fit: cover;
-//             width: 100%;
-//             height: 100%;
-//         }
-//     }
-//     .item-3{
-//          grid-area:main;
-//          img{
-//             object-fit: cover;
-//             width: 100%;
-//             height: 100%;
-//         }
-//     }
-//     .item-4{
-//          grid-area: article2;
-//          img{
-//             object-fit: cover;
-//             width: 100%;
-//             height: 100%;
-//         } 
-//     }
+
+    
+    
+    
 
 
 

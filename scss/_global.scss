@@ -1,19 +1,43 @@
-// body{
-//     margin: 0;
-//   ul {
-//     list-style: none;
-//     li{
-//     font-weight: 400;
-//     }  
-// }
+body{
+     margin: 0;
+  ul {
+    list-style: none;
+    li{
+    font-weight: 400;
+    }  
+}
+}
+   
+@font-face {
+    font-family: "pepo";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+p{
+    font-family: "pepo";
+    font-size: 20px;
+} 
+h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 10px;
+}
 
-// }
-
-// @font-face {
-//     font-family: "pepo";
-//     src: url(../fonts/Roboto-Regular.ttf);
-// }
-// p{
-//     font-family: "pepo";
-//     font-size: 20px;
-// } 
+h3{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: "pepo";
+}
+h2{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: "pepo";
+}
+h5{
+    font-size: 30px;
+    font-family: "pepo";
+    padding: 10px;
+    margin-left: 10px; 
+}

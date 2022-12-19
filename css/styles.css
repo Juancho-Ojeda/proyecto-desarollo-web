@@ -1,8 +1,9 @@
-.header header {
+@charset "UTF-8";
+header {
   background-color: rgb(33, 33, 33);
 }
 
-.header .nav_header .contenedor {
+.contenedor {
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
@@ -11,28 +12,27 @@
   padding: 10px 0;
 }
 
-.header .nav_header .nav-item {
+.header__logo {
+  width: 90px;
+  height: 80px;
+}
+
+.nav-item {
   max-width: 100%;
   padding: 5px;
 }
 
-.header .nav_header .nav-link {
+.nav-link {
   font-family: "pepo";
   font-weight: 800px;
   color: #fff;
   gap: 1.8rem;
 }
-
-.header .nav_header .nav-link:hover {
+.nav-link:hover {
   text-decoration: underline;
 }
 
-.header .nav_header .header__logo {
-  width: 90px;
-  height: 80px;
-}
-
-.header .nav_header .navbar__header {
+.navbar__header {
   background-color: rgb(67, 67, 67);
 }
 
@@ -41,7 +41,6 @@
   font-weight: 700px;
   padding: 20px;
 }
-
 .preguntas ol {
   color: red;
   font-size: 1.2rem;
@@ -73,10 +72,265 @@
   align-items: center;
   list-style: none;
 }
-
 .redes li {
   width: 1100px;
   height: 100px;
-} /*# sourceMappingURL=styles.css.map */
+}
+
+body {
+  margin: 0;
+}
+body ul {
+  list-style: none;
+}
+body ul li {
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "pepo";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+p {
+  font-family: "pepo";
+  font-size: 20px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+h3 {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: "pepo";
+}
+
+h2 {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: "pepo";
+}
+
+h5 {
+  font-size: 30px;
+  font-family: "pepo";
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.marcas {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marcas h4 {
+  margin: 0;
+  color: #232323;
+  letter-spacing: 0.3px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.galeria-container {
+  margin-top: 5px;
+  background-color: #fff;
+  width: 95%;
+  padding: 20px;
+  margin-left: 25px;
+  display: grid;
+  grid-template-areas: "article main aside article2" "article main aside article2";
+  grid-template-columns: 30% 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.galeria-container .galeria__item-alt {
+  width: 100%;
+  height: 100%;
+}
+.galeria-container .galeria__item-alt .item-1 {
+  grid-area: article;
+}
+.galeria-container .galeria__item-alt img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.galeria-container .galeria__item-alt .item-2 {
+  grid-area: aside;
+}
+.galeria-container .galeria__item-alt .item-2 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.galeria-container .galeria__item-alt .item-3 {
+  grid-area: main;
+}
+.galeria-container .galeria__item-alt .item-3 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.galeria-container .galeria__item-alt .item-4 {
+  grid-area: article2;
+}
+.galeria-container .galeria__item-alt .item-4 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1100px;
+}
+.container .card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+  border-radius: 7px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.container .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+.container .RECOMENDADOS img {
+  width: 310px;
+  height: 300px;
+}
+.container .LANZAMIENTOS img {
+  width: 250px;
+  height: 300px;
+}
+.container .MUNDIAL img {
+  width: 260px;
+  height: 300px;
+}
+.container .botas img {
+  width: 310px;
+  height: 300px;
+}
+.container .zapas img {
+  width: 310px;
+  height: 300px;
+}
+.container .tops img {
+  width: 310px;
+  height: 300px;
+}
+.container .card__gorras img {
+  width: 250px;
+  height: 200px;
+}
+.container .niño img {
+  width: 270px;
+  height: 280px;
+}
+.container .pelotas img {
+  width: 260px;
+  height: 250px;
+}
+
+.form__container h1 {
+  font-family: sans-serif;
+  font-size: 35px;
+}
+.form__container h2 {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.form__container .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.form__container .container .form {
+  background-color: rgba(224, 224, 224, 0.3);
+  border-radius: 10px;
+  max-width: 400px;
+  padding: 20px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 15px;
+}
+.form__container .container .form .form__input {
+  width: 100%;
+  padding: 4px 0;
+  border-style: solid;
+  border-color: rgb(228, 228, 228);
+  outline: none;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: "pepo";
+}
+.form__container .container .form p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(173, 172, 172);
+}
+.form__container .container .form .form__group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.form__container .container .form .btn-enviar {
+  font-size: 14px;
+  font-family: "pepo";
+  font-weight: 700;
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px 0;
+  width: 100%;
+  padding: 15px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 2fr;
+    width: 85%;
+  }
+  .galeria-container {
+    grid-template-columns: min-content;
+    margin-left: 5px;
+  }
+  li {
+    font-size: 20px;
+  }
+  h2 {
+    align-items: center;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  h3 {
+    align-items: center;
+    padding: 15px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  .card .LANZAMIENTOS img {
+    width: 300px;
+    height: 300px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

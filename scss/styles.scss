@@ -1,4 +1,4 @@
-@import'./header';
+@import'header.scss';
 
 @import'seccionpregun.scss';
 
@@ -7,3 +7,44 @@
 @import"seccionmarcas.scss";
 
 @import"galeriagrid.scss";
+
+@import'tarjetas.scss';
+
+@import'contacto.scss';
+
+@media(max-width:600px) {
+    .container{
+        display: grid;
+        grid-template-columns:2fr;
+        width: 85%;
+    }
+    .galeria-container{
+        grid-template-columns:min-content;
+        margin-left: 5px;
+    }
+    li{
+        font-size: 20px;
+    }
+    h2{
+        align-items: center;
+        padding: 15px;
+        margin-left: 5px;
+    }
+    h3{
+        align-items: center;
+        padding: 15px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        .LANZAMIENTOS{
+        img{
+            width: 300px;
+            height: 300px;
+        }
+    } 
+    }
+   
+}
