@@ -279,11 +279,36 @@ h5 {
     height: 200px;
   }
 }
+@media (max-width: 710px) and (min-width: 601px) {
+  .container .card {
+    margin: 10px;
+  }
+  .container .card .LANZAMIENTOS img {
+    width: 155px;
+    height: 165px;
+  }
+  .container .card .MUNDIAL img {
+    width: 150px;
+    height: 170px;
+  }
+  .container .card .RECOMENDADOS img {
+    width: 180px;
+    height: 170px;
+  }
+  .container .card .botas img {
+    width: 185px;
+    height: 170px;
+  }
+  .container .card .zapas img {
+    width: 185px;
+    height: 170px;
+  }
+}
 @media (max-width: 600px) {
   .container {
     display: grid;
     grid-template-columns: 2fr;
-    width: 85%;
+    width: 90%;
   }
   .galeria-container {
     grid-template-columns: min-content;
